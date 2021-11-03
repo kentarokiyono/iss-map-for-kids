@@ -2,4 +2,4 @@
 
 ISSの現在の場所と各国のロケット打ち上げ場の情報が載っている地図です。
 
-use the template of https://github.com/geoloniamaps/pwa
+Use the template of https://github.com/geoloniamaps/pwa
