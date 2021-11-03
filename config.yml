@@ -1,5 +1,5 @@
 title: ロケット観光マップ # トップページのタイトルです。
-description: ISSの現在の場所と各国のロケット打ち上げ場の情報が載っている地図です。宇宙教育にどうぞ。 # descriptionタグとサブタイトルです。
+description: ISSの現在の場所と各国のロケット打ち上げ場の情報が載っている地図です。ロケット観光や宇宙教育にご利用ください。 # descriptionタグとサブタイトルです。
 background_image: ./background.jpg
 logo_image: https://raw.githubusercontent.com/naogify/iss-map-for-kids/master/public/iss.png?token=ACC24CJ5HJ7XW5SWKV4EJUDBRCA6Q
 menus:
