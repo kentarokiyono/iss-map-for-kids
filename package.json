@@ -1,5 +1,5 @@
 {
-  "name": "iemeshi.jp",
+  "name": "iss-map",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,6 +29,8 @@
   "scripts": {
     "start": "node bin/config.js && react-scripts start",
     "build": "node bin/config.js && react-scripts build",
+    "create-pwa-asset": "pwa-asset-generator public/iss.svg ./public/ -i ./public/index.html -m ./public/manifest.json",
+    "create-favicon": "icon-gen --input=public/iss.svg --output=public --ico --ico-name=favicon",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -52,6 +54,9 @@
     "@types/react-router-dom": "^5.1.4",
     "axios": "^0.24.0",
     "csv-parse": "^4.8.8",
+    "favicons": "^6.2.2",
+    "icon-gen": "^3.0.0",
+    "pwa-asset-generator": "^6.0.5",
     "yaml": "^1.9.1"
   }
 }

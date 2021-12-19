@@ -1,7 +1,7 @@
 title: ロケット観光マップ # トップページのタイトルです。
 description: ISSの現在の場所と各国のロケット打ち上げ場の情報が載っている地図です。ロケット観光や宇宙教育にご利用ください。 # descriptionタグとサブタイトルです。
-background_image: ./background.jpg
-logo_image: https://raw.githubusercontent.com/naogify/iss-map-for-kids/master/public/iss.png?token=ACC24CJ5HJ7XW5SWKV4EJUDBRCA6Q
+background_image: https://kentarokiyono.github.io/iss-map-for-kids/background.jpg
+logo_image: https://kentarokiyono.github.io/iss-map-for-kids/iss.png
 menus:
   - menu:
     title: ホーム
@@ -11,10 +11,5 @@ menus:
     title: 打ち上げ所一覧
     url: /list
     icon: fas fa-list
-  # - menu:
-  #   title: アプリについて
-  #   url: /about
-  #   icon: fas fa-user
-  #   content: /pages/menu3.md # public/pages/menu3.md を編集する事でページを更新できます。
 markers:
   clusterColor: '#4766F2' #クラスターの色を指定します。
