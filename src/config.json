@@ -1,0 +1,23 @@
+{
+  "title": "ロケット観光マップ",
+  "description": "ISSの現在の場所と各国のロケット打ち上げ場の情報が載っている地図です。ロケット観光や宇宙教育にご利用ください。",
+  "background_image": "https://kentarokiyono.github.io/iss-map-for-kids/background.jpg",
+  "logo_image": "https://kentarokiyono.github.io/iss-map-for-kids/iss.png",
+  "menus": [
+    {
+      "menu": null,
+      "title": "ホーム",
+      "url": "/",
+      "icon": "fas fa-home"
+    },
+    {
+      "menu": null,
+      "title": "打ち上げ所一覧",
+      "url": "/list",
+      "icon": "fas fa-list"
+    }
+  ],
+  "markers": {
+    "clusterColor": "#4766F2"
+  }
+}

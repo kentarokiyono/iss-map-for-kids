@@ -21,7 +21,8 @@ const App = () => {
   const [ shopList, setShopList ] = React.useState<Iemeshi.ShopData[]>([])
 
   React.useEffect(() => {
-    fetch(`./data.csv`)
+    const csvUrl = `${window.location.origin}${window.location.pathname}/data.csv`
+    fetch(csvUrl)
     .then((response) => {
       return response.ok ? response.text() : Promise.reject(response.status);
     })
