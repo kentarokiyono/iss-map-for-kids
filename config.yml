@@ -8,7 +8,7 @@ menus:
     url: /
     icon: fas fa-home
   - menu:
-    title: 打ち上げ所一覧
+    title: 発射場一覧
     url: /list
     icon: fas fa-list
 markers:
